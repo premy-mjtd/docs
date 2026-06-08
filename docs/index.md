@@ -1,18 +1,29 @@
-# Welcome to MkDocssssssssss
+# Whalecome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Whaleden is a platform built for creators, fans, and partners who believe that the next great comic franchise shouldn't need a corporate boardroom to exist. We provide the tools, community, and infrastructure that turn original stories into bold, independent worlds — and we make sure the right people can find them.
 
-## Commands
+Whether you're an artist ready to pitch your first comic, a fan who wants a voice in what gets made, or a partner looking to bring a story to life — you're in the right place.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Here, you don't just follow the rise of new worlds. **You help shape which ones get built.**
 
-## Project layout
+---
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-<img width="316" height="187" alt="CleanShot 2026-06-08 at 11  23 18" src="https://github.com/user-attachments/assets/82942278-17b0-4c86-b987-25ba6648c1e0" />
+## What is Whaleden?
+
+Whaleden provides three core components:
+
+- **Tools** — Resources for creators to develop and launch original projects
+- **Community** — An engaged audience of fans and collaborators
+- **Infrastructure** — The technical backbone enabling independent story worlds
+
+## Who is it for?
+
+| Role         | Description                                                     |
+| ------------ | --------------------------------------------------------------- |
+| **Creators** | Artists and storytellers launching original comic projects      |
+| **Fans**     | Community members who actively shape which stories get produced |
+| **Partners** | Organizations seeking to collaborate on story development       |
+
+## Core Mission
+
+The platform's philosophy centers on removing traditional corporate gatekeeping from creative industries. The next great comic franchise shouldn't need a boardroom to exist.
