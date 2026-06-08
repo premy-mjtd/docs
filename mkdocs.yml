@@ -1,0 +1,11 @@
+site_name: Project Docs
+site_description: Documentation site powered by MkDocs
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Deployment: deployment.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
