@@ -3,16 +3,14 @@ site_url: https://docs.whaleden.com
 
 theme:
   name: material
+  logo: assets/image.avif
   palette:
     scheme: slate
-    primary: deep purple
-    accent: cyan
+    primary: custom
   font:
     text: Inter
     code: JetBrains Mono
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.top
@@ -20,6 +18,9 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
