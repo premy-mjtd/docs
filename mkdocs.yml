@@ -1,6 +1,9 @@
 site_name: Whaleden Docs
 site_url: https://docs.whaleden.com
 
+extra:
+  generator: false
+
 theme:
   name: material
   logo: assets/image.avif
@@ -41,11 +44,11 @@ nav:
   - Whalecome: index.md
   - Official Links: official-links.md
   - How To:
-    - Create an Account: how-to/create-an-account.md
-    - Link a Wallet: how-to/link-a-wallet.md
+      - Create an Account: how-to/create-an-account.md
+      - Link a Wallet: how-to/link-a-wallet.md
   - Stories:
-    - Comic Pitch: stories/comic-pitch.md
-    - Comics: stories/comics.md
+      - Comic Pitch: stories/comic-pitch.md
+      - Comics: stories/comics.md
   - Documents:
-    - Whitepaper: documents/whitepaper.md
-    - Tokenomics: documents/tokenomics.md
+      - Whitepaper: documents/whitepaper.md
+      - Tokenomics: documents/tokenomics.md
