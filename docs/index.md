@@ -1,4 +1,5 @@
 # Whalecome
+<img width="2400" height="1260" alt="og" src="https://github.com/user-attachments/assets/afb41814-bb20-4960-ba52-9ff0c3147069" />
 
 Whaleden is a platform built for creators, fans, and partners who believe that the next great comic franchise shouldn't need a corporate boardroom to exist. We provide the tools, community, and infrastructure that turn original stories into bold, independent worlds — and we make sure the right people can find them.
 
