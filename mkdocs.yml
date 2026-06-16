@@ -17,6 +17,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.footer
     - navigation.instant
     - search.suggest
     - search.highlight
@@ -43,12 +44,9 @@ markdown_extensions:
 nav:
   - Whalecome: index.md
   - Official Links: official-links.md
-  - How To:
-      - Create an Account: how-to/create-an-account.md
-      - Link a Wallet: how-to/link-a-wallet.md
   - Stories:
       - Comic Pitch: stories/comic-pitch.md
       - Comics: stories/comics.md
-  - Documents:
-      - Whitepaper: documents/whitepaper.md
-      - Tokenomics: documents/tokenomics.md
+  - How To:
+      - Create an Account: how-to/create-an-account.md
+      - Link a Wallet: how-to/link-a-wallet.md

@@ -1,8 +1,55 @@
 :root,
 [data-md-color-scheme="slate"] {
+  /* Blue kept only as an accent (links / highlights), not the bar background */
   --md-primary-fg-color: #2f72e8;
   --md-primary-fg-color--light: #5e99ff;
   --md-primary-fg-color--dark: #1f56bc;
   --md-accent-fg-color: #7cb0ff;
   --md-typeset-a-color: #8ab9ff;
+}
+
+/* --- Logo only: hide the site name / page title text, but keep the element
+   in the layout. Its flex-grow acts as the spacer that keeps the search box
+   right-aligned, so search uses Material's native (non-shifting) positioning. --- */
+.md-header__title {
+  visibility: hidden;
+}
+
+/* --- Glassmorphism top bar (logo + search) --- */
+.md-header {
+  background-color: rgba(18, 18, 24, 0.6);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  backdrop-filter: blur(14px) saturate(160%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: none;
+  color: #fff;
+}
+
+/* Softer shadow once the page is scrolled (Material toggles this) */
+.md-header[data-md-state="shadow"],
+.md-header--shadow {
+  box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.35);
+}
+
+/* --- Glass search field --- */
+.md-search__form {
+  background-color: rgba(255, 255, 255, 0.08);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.6rem;
+  box-shadow: none;
+}
+
+.md-search__form:hover {
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form {
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+/* Search dropdown panel: subtle glass to match */
+.md-search__output {
+  border-radius: 0 0 0.6rem 0.6rem;
 }
