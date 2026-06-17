@@ -1,4 +1,4 @@
-# Official Links
+# 🔗 Official Links
 
 * Homepage: <https://whaleden.com/>
 * Application: <https://collect.whaleden.com/>

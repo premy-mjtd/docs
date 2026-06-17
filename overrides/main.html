@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link
+    rel="icon"
+    href="{{ 'assets/favicon.ico' | url }}"
+    type="image/x-icon"
+    media="(prefers-color-scheme: light)"
+  >
+  <link
+    rel="icon"
+    href="{{ 'assets/favicon-white.ico' | url }}"
+    type="image/x-icon"
+    media="(prefers-color-scheme: dark)"
+  >
+{% endblock %}

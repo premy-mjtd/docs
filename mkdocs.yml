@@ -1,4 +1,4 @@
-site_name: Whaleden Docs
+site_name: Whaleden
 site_url: https://docs.whaleden.com
 
 extra:
@@ -6,6 +6,8 @@ extra:
 
 theme:
   name: material
+  custom_dir: overrides
+  favicon: assets/favicon.ico
   logo: assets/image.avif
   palette:
     scheme: slate
@@ -42,8 +44,8 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Whalecome: index.md
-  - Official Links: official-links.md
+  - 🐋 Whalecome: index.md
+  - 🔗 Official Links: official-links.md
   - Stories:
       - Comic Pitch: stories/comic-pitch.md
       - Comics: stories/comics.md

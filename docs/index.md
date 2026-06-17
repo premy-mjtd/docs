@@ -1,4 +1,4 @@
-# Whalecome
+# 🐋 Whalecome
 
 *Stories don't fail because of ideas. They fail because of infrastructure.*
 
