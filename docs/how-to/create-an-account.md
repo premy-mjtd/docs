@@ -1,5 +1,7 @@
 # Create an Account
 
+*This guide will help you get started with the Whaleden platform - from signing in to exploring your account and earning rewards.*
+
 ### **1) Open the platform**
 
 Go to our platform
